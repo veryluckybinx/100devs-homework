@@ -1,0 +1,53 @@
+body{
+    background: lightblue;
+    border:1mm solid green;
+    width: 1000px;
+    height: 800px;
+    margin: auto;
+    padding: 50px;
+}
+header{
+    text-align: center;
+}
+section{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+a{
+    color: green;
+}
+h1{
+    color: white;
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+}
+.white{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.green{
+    color: green;
+    font-size: 20px;
+    text-align: center;
+}
+h2{
+    color: white;
+    font-size: 30px;
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+img{
+    max-width: 20%;
+    height: auto;
+    float: right;
+}
+li{
+    display: inline-block;
+    text-align: center;
+}
