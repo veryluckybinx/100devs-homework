@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+header, footer{
+    height: 200px;
+    border: 5px dotted palevioletred;
+    clear: both;
+}
+section{
+    background: lightskyblue;
+    width: 33.3333%;
+    height: 300px;
+    float: left;
+    border: 3px solid yellowgreen;
+}
+@media only screen and (max-width: 599px){
+    header{
+        height: 100px;
+        background: lightgoldenrodyellow;
+    }
+}
+@media (min-width: 600px){
+    section{
+        border: 10px solid blue;
+    }
+}
+@media only screen and (max-height: 400px){
+    section{
+        display: none;
+    }
+}
