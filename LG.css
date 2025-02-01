@@ -1,0 +1,91 @@
+*{   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header, main{
+    background: rgb(94, 205, 189);
+    color: white;
+    overflow: hidden;
+}
+header img{
+    width: 10%;
+    height: auto;
+    margin-left: 28%;
+
+}
+#classes,#hireus{
+    float: left;
+}
+#donate{
+    float: right;
+}
+.link{
+    color: gray;
+    text-decoration: none;
+    padding: 30px;
+}
+#watch{
+    display: block;
+    color: aliceblue;
+    margin: 25px;
+}
+main, #white,#lightgrey{
+    height: 500px;
+    text-align: center;
+    clear: both;
+    display: block;
+    padding: 100px;
+}
+h1{
+    font-size: 4rem;
+}
+main > p, h2 + p{
+    font-size: 1.5rem;
+    margin: 10px;
+}
+#white{
+    color: black;
+    height: 370px;
+    clear: both;
+}
+h2{
+    font-size: 3rem;
+}
+.grey{
+    float: left;
+    width: 50%;
+    height: 500px;
+    background-color: lightgray;
+}
+#lightgrey{
+    color: black;
+    height: 300px;
+}
+#deepblue{
+    background:rgb(24, 66, 108);
+    overflow: auto;
+}
+#deepblue1,#deepblue2{
+    height: 200px;
+    display: inline-block;
+    width: 40%;
+}
+#deepblue1 ul{
+    float: left;
+    list-style-type: none
+}
+#deepblue2 ul{
+    float: right;
+    list-style-type: none
+}
+footer{
+    background:rgb(24, 66, 108);
+    border-top: 3px solid gray;
+    color: white;
+    padding: 10px;
+}

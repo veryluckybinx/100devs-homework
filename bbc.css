@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 60px; 
+    background-color: black;
+    color: white;
+}
+
+header nav img,header nav form,header nav li{
+    float: left;
+    width: 8%;
+    display: block;
+}
+header nav form,header nav li{
+    float: left;
+    width: 8%;
+    display: block;
+    padding: 20px 0;
+}
+li{
+    text-decoration: none;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+#intro{
+    height: 80px;
+    padding: 20px;
+}
+#intro h2{
+    float: left;
+    width: 80%;
+}
+#intro span{
+    float: left;
+    width: 20%;
+    color: gray;
+}
+main{
+    height: 500px;
+    width: 50%;
+    float: left;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXCYXReNq_wTZdkcyt67RscRahzmFIuekWOA&s);
+    background-size: cover;
+    color: azure;
+    padding: 400px 0 0 50px;
+}
+aside section{
+    height: 250px;
+    width: 25%;
+    float: left;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0iZBia9gUL-EX0ydU1Ymkz6PnmUrIq9fDXA&s);
+    background-size: cover;
+    color: azure;
+    padding: 200px 0 0 20px;
+}
+#News section{
+    width: 33.3333%;
+    height: 500px;
+    float: left;
+}
+#News section img{
+    width: 90%;
+}
