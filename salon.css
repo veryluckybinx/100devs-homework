@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 4rem;
+}
+header img, header nav li{
+    float: left;
+    width: 9%;
+    clear: right;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+main{
+    height: 60rem;
+    background-image: url(/Users/runningorange/Desktop/100devs/class10/homework/salon1.jpg);
+    background-size: cover;
+    padding: 5rem 0 0 5rem;
+    color: aliceblue;
+}
+h1{
+    font-size: 5rem;
+}
+#services{
+    height: 3rem;
+    width: 7rem;
+    background-color: black;
+    margin: 2rem 0;
+}
+#services a{
+    color: aliceblue;
+}
+#discount{
+    height: 18rem;
+    width: 15rem;
+    background-color: black;
+    padding: 1.8rem;
+}
+#discount *{
+    padding: 1rem;;
+}
+#discount a{
+    color: black;
+}
+#quality{
+    height: 20rem;
+    background-color: blueviolet;
+    color: antiquewhite;
+}
+.expert{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    padding: 10rem;
+}
+.expert i{
+    font-size: 5rem;
+}
